@@ -1,0 +1,8 @@
+def convert_list_to_set(input_list):
+    set_from_list = set(input_list)
+    return set_from_list
+
+# Example usage:
+input_list = [1, 2, 3, 3, 4, 5, 5, 6]
+set_from_list = convert_list_to_set(input_list)
+print("Set from list:", set_from_list)
